@@ -1,3 +1,5 @@
+import { portrait } from "./photo";
+
 export type PageKey = "home" | "hcc" | "beyond" | "career" | "technology" | "sources";
 
 const nav = [
@@ -186,7 +188,7 @@ function Home() {
           </a>
         </div>
         <figure className="portrait">
-          <img src="./andres-giron.jpg" alt="Andres Giron" />
+          <img src={portrait} alt="Andres Giron" />
           <figcaption>
             <strong>Andres Giron</strong>
             <span>Cybersecurity Student · Tampa, Florida</span>
